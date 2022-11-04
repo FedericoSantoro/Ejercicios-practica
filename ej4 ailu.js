@@ -34,7 +34,7 @@ const Pizzas = [
     id: 6,
     ingredientes: ["Queso", "Salsa", "tomate", "ajo", "Jamon", "Piña"],
     precio: "900",
-  },
+  }
 ];
 
 //Punto a
