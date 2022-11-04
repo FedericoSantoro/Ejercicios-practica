@@ -3,37 +3,37 @@ const Pizzas = [
     nombre: "Napolitana",
     id: 1,
     ingredientes: ["Queso", "Salsa", "Tomate", "Ajo"],
-    precio: "700",
+    precio: 700,
   },
   {
     nombre: "Fugazzeta",
     id: 2,
     ingredientes: ["Queso", "Salsa", "Cebolla"],
-    precio: "300",
+    precio: 3000,
   },
   {
     nombre: "Jamon y Morron",
     id: 3,
     ingredientes: ["Queso", "Salsa", "Jamon", "Morron"],
-    precio: "600",
+    precio: 6000,
   },
   {
     nombre: "Muzzarela",
     id: 4,
     ingredientes: ["Queso", "Salsa"],
-    precio: "400",
+    precio: 4000,
   },
   {
     nombre: "Jamon y Queso",
     id: 5,
     ingredientes: ["Queso", "Salsa", "Jamon"],
-    precio: "450",
+    precio: 4050,
   },
   {
     nombre: "Especial",
     id: 6,
     ingredientes: ["Queso", "Salsa", "tomate", "ajo", "Jamon", "Piña"],
-    precio: "900",
+    precio: 900,
   },
 ];
 
@@ -46,7 +46,7 @@ Pizzas.forEach((element) => {
 //Punto b
 console.log(" ");
 console.log("Hay pizzas a menos de $600? ");
-if (Pizzas.some((element) => element.precio < "600")) {
+if (Pizzas.some((element) => element.precio < 600)) {
   console.log("Si, hay pizzas a menos de $600");
 } else {
   console.log("No, no hay pizzas a menos de $600");
