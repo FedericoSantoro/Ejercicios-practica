@@ -37,6 +37,7 @@ const Pizzas = [
   },
 ];
 
+//Usando metodos de array
 //Punto a
 console.log("Pizzas con ID Impar: ");
 Pizzas.forEach((element) => {
@@ -70,6 +71,7 @@ Pizzas.forEach((element) => {
   element.ingredientes.forEach((element2) => console.log(element2));
 });
 
+//Usando for
 /*
 //Punto a
 console.log(" ");
