@@ -1,40 +1,41 @@
-const napolitana = {
-  nombre: "Napolitana",
-  id: 1,
-  ingredientes: ["Queso", "Salsa", "Tomate", "Ajo"],
-  precio: "700",
-};
-const fugazzeta = {
-  nombre: "Fugazzeta",
-  id: 2,
-  ingredientes: ["Queso", "Salsa", "Cebolla"],
-  precio: "300",
-};
-const jym = {
-  nombre: "Jamon y Morron",
-  id: 3,
-  ingredientes: ["Queso", "Salsa", "Jamon", "Morron"],
-  precio: "600",
-};
-const muzzarela = {
-  nombre: "Muzzarela",
-  id: 4,
-  ingredientes: ["Queso", "Salsa"],
-  precio: "400",
-};
-const jamon = {
-  nombre: "Jamon y Queso",
-  id: 5,
-  ingredientes: ["Queso", "Salsa", "Jamon"],
-  precio: "450",
-};
-const especial = {
-  nombre: "Especial",
-  id: 6,
-  ingredientes: ["Queso", "Salsa", "tomate", "ajo", "Jamon", "Piña"],
-  precio: "900",
-};
-const Pizzas = [napolitana, fugazzeta, jym, muzzarela, jamon, especial];
+const Pizzas = [
+  {
+    nombre: "Napolitana",
+    id: 1,
+    ingredientes: ["Queso", "Salsa", "Tomate", "Ajo"],
+    precio: "700",
+  },
+  {
+    nombre: "Fugazzeta",
+    id: 2,
+    ingredientes: ["Queso", "Salsa", "Cebolla"],
+    precio: "300",
+  },
+  {
+    nombre: "Jamon y Morron",
+    id: 3,
+    ingredientes: ["Queso", "Salsa", "Jamon", "Morron"],
+    precio: "600",
+  },
+  {
+    nombre: "Muzzarela",
+    id: 4,
+    ingredientes: ["Queso", "Salsa"],
+    precio: "400",
+  },
+  {
+    nombre: "Jamon y Queso",
+    id: 5,
+    ingredientes: ["Queso", "Salsa", "Jamon"],
+    precio: "450",
+  },
+  {
+    nombre: "Especial",
+    id: 6,
+    ingredientes: ["Queso", "Salsa", "tomate", "ajo", "Jamon", "Piña"],
+    precio: "900",
+  },
+];
 
 //Punto a
 console.log(" ");
